@@ -7,7 +7,7 @@ import { links } from "../assets/constants";
 const Sidebar = () => (
    const [mobileMenuOpen, setMobileMenuOpen]=useState(false);
    return (<>
-    <div></div>
+    <div className="md:flex hidden"></div>
    </>)
 );
 
