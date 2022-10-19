@@ -6,7 +6,9 @@ import { links } from "../assets/constants";
 
 
 const NavLinks=()=>(
-    
+    <div className="mt-10">
+        
+    </div>
 )
 
 const Sidebar = () => {
