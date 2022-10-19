@@ -7,7 +7,11 @@ import { links } from "../assets/constants";
 
 const NavLinks=()=>(
     <div className="mt-10">
-        
+        {links.map((item)=>(
+            <NavLink>
+                {item.name}
+            </NavLink>
+        ))}
     </div>
 )
 
