@@ -22,6 +22,13 @@ const Sidebar = () => {
         <img src={logo} alt="logo" className="w-full h-14 object-contain" />
         <NavLinks/>
     </div>
+
+    <div className="absolute md:hidden block top-6 right-3">
+       
+    </div>
+
+    
+
    </>
    );
    };
