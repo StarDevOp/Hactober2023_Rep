@@ -8,7 +8,7 @@ import { links } from "../assets/constants";
 const NavLinks=()=>(
     <div className="mt-10">
         {links.map((item)=>(
-            <NavLink>
+            <NavLink key={item.name} to={item.to}>
                 {item.name}
             </NavLink>
         ))}
