@@ -8,7 +8,7 @@ import { links } from "../assets/constants";
 const NavLinks=()=>(
     <div className="mt-10">
         {links.map((item)=>(
-            <NavLink key={item.name} to={item.to}>
+            <NavLink key={item.name} to={item.to} className="flex flex-row justify-start items-center my-8 ">
                 {item.name}
             </NavLink>
         ))}
