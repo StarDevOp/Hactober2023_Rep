@@ -17,7 +17,7 @@ const TopChartCard=({song,i})=>{
 }
 
 const TopPlay = () => (
-  <div>TopPlay</div>
+ const dispatch=useDispatch();
 );
 
 export default TopPlay;
