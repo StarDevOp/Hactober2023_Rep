@@ -27,7 +27,7 @@ const TopPlay = () => (
   });
 const topPlayas=data?.slice(0,5);
   const handlePauseClick = () => {
-   //Write code here,,,,
+  dispatch();
   };
 
 
