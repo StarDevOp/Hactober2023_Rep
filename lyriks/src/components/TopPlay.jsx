@@ -26,7 +26,9 @@ const TopPlay = () => (
     divRef.current.scrollIntoView({behavior: 'smooth'});
   });
 const topPlayas=data?.slice(0,5);
-  
+  const handlePauseClick = () => {
+   //Write code here,,,,
+  };
 
 
 );
