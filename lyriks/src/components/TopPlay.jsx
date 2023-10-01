@@ -21,6 +21,10 @@ const TopPlay = () => (
  const { activeSong, isPlaying } = useSelector((state) => state.player);
  const {data}=useGetTopChartsQuery();
  const divRef=useRef(null);
+
+  useEffect(()=>{
+    
+  });
 );
 
 export default TopPlay;
