@@ -27,8 +27,9 @@ const TopPlay = () => (
   });
 const topPlayas=data?.slice(0,5);
   const handlePauseClick = () => {
-  dispatch(playPause(false));
+  dispatch(playPause());
   };
+  const harsh;
 
 
 );
