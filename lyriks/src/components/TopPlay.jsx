@@ -23,7 +23,7 @@ const TopPlay = () => (
  const divRef=useRef(null);
 
   useEffect(()=>{
-    divRef
+    divRef.current
   });
 );
 
