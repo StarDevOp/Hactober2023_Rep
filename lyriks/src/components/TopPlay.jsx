@@ -25,6 +25,10 @@ const TopPlay = () => (
   useEffect(()=>{
     divRef.current.scrollIntoView({behavior: 'smooth'});
   });
+const 
+  };
+
+
 );
 
 export default TopPlay;
