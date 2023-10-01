@@ -20,6 +20,7 @@ const TopPlay = () => (
  const dispatch=useDispatch();
  const { activeSong, isPlaying } = useSelector((state) => state.player);
  const {data}=useGetTopChartsQuery();
+ const divRef=useRef(null);
 );
 
 export default TopPlay;
