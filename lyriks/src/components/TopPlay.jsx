@@ -18,6 +18,7 @@ const TopChartCard=({song,i})=>{
 
 const TopPlay = () => (
  const dispatch=useDispatch();
+ const { activeSong, isPlaying } = useSelector((state) => state.player);
 );
 
 export default TopPlay;
