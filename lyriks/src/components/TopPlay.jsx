@@ -29,7 +29,9 @@ const topPlayas=data?.slice(0,5);
   const handlePauseClick = () => {
   dispatch(playPause());
   };
-  return ();
+  return (
+    <>
+  );
 
 
 );
